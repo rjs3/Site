@@ -1,0 +1,29 @@
+/* Portfolio
+/*-----------------------------------------------------------------------------------*/
+ul.filter_portfolio {float:left; clear:both; padding:15px 0 35px 0px;}
+ul.filter_portfolio li {float: left;display:inline;}
+ul.filter_portfolio li a {display: block;font-size: 15px; padding:6px 10px; background-color:#403933;color: #fff;margin:0 10px 0 0;}
+ul.filter_portfolio li.selected a{border: 0;color: #403933;background-color:#E4E4E4; display: block;margin:0 10px 0 0;}
+ul.filter_portfolio li a:hover{border: 0;color: #403933;background-color:#E4E4E4;}
+ul.filter_portfolio a:focus {outline: 0;}
+
+
+ul.portfolio_items {list-style:none;padding:0;margin:0;overflow:hidden; clear:both;}
+ul.portfolio_items li {float:left;display:inline-block;overflow: hidden; position:relative;}
+ul.portfolio_items li img {display:block;}
+
+
+.ftportfolio_item{ padding:0; position:relative; overflow:hidden;}
+
+.ftportfolio_item span{ position:absolute; bottom:-60px; left:30%; z-index:9999;}
+.ftportfolio_item span.link{ position:absolute; bottom:-60px; left:48%; z-index:9999;}
+
+.ftportfolio_item span a.thumbhover-zoom{ width:45px; height:36px; display:block; background:url(images/thumbhover-zoom.png) no-repeat center;}
+.ftportfolio_item span.link a.thumbhover-link{ width:45px; height:36px; display:block; background:url(images/thumbhover-link.png) no-repeat center;}
+
+.ftportfolio_caption{background-color:#E4E4E4; width:92%; padding:20px 4%;}
+.ftportfolio_caption h3{ padding:0px; padding:0px; font-size:16px;}
+
+@media screen and (max-width: 760px) {
+ul.filter_portfolio li { margin-bottom:10px;}
+}

@@ -1,0 +1,13 @@
+.sermon_buttons{ clear:both; margin:0 0 35px 0;}
+.sermon_button{-moz-border-radius:8px;-webkit-border-radius:8px;-khtml-border-radius:8px;border-radius:8px; width:100%; height:50px; padding:0; margin:0 0 10px 0; line-height:50px; text-align:center; background-color:#666666;}
+.sermon_button a{color:#FFFFFF; font-size:18px;}
+
+
+.pdf{ background-image:url(images/pdf_icon.png); background-repeat:no-repeat; background-position:10% 10px;}
+.video{ background-image:url(images/video_icon.png); background-repeat:no-repeat; background-position:10% 10px;}
+.audio{ background-image:url(images/audio_icon.png); background-repeat:no-repeat; background-position:10% 10px;}
+
+.sermon_date{width:100%; height:50px; line-height:50px;font-size:18px; padding:0; text-align:center; margin:0 0 35px 0; background-image:url(images/date_icon.png); background-repeat:no-repeat; background-position:10% 12px;background-color:#e5c89a; -moz-border-radius:8px;-webkit-border-radius:8px;-khtml-border-radius:8px;border-radius:8px;color:#95541e;}
+
+.sermon_audio_content{width:96%; height:auto; padding:2%; margin:0 0 10px 0; display:none;
+background-color:#e5c89a; -moz-border-radius:8px;-webkit-border-radius:8px;-khtml-border-radius:8px;border-radius:8px;}

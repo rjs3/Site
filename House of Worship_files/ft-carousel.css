@@ -1,0 +1,21 @@
+/* Flexible Carousel
+/*-----------------------------------------------------------------------------------*/
+.ftcarousel_image{text-align:center;background-color:#dbdbdb;margin:0 auto 25px auto; display:inline-block;border-radius:999px;-moz-border-radius:999px;-webkit-border-radius:999px;-khtml-border-radius:999px; padding:10px;}
+.ftcarousel_image img{border-radius:999px;-moz-border-radius:999px;-webkit-border-radius:999px;-khtml-border-radius:999px;display:block; text-align:center;}
+
+.ft-carousel-wrapper{ width:100%;padding:0px; height:auto;position:relative;clear:both; color:#000000; background-color:#f5f5f5;}
+.ft-carousel{overflow:hidden; margin:0 30px;}
+.ft-carousel ul{display:none; padding:0px; margin:0px;}
+.ft-carousel ul li{height:100%;float:left;display:block; position: relative; margin:0px 0 0 0; text-align:center;}
+.ft-carousel ul li h2{ color:#666666; padding:25px 0; margin:0px; font-size:20px;}
+.ft-carousel ul li h2 a{ color:#666666;}
+.ft-carousel ul li p{ padding:0px 20px 25px 20px; margin:0px; text-align:center;}
+
+
+.es-nav span{position:absolute;text-indent:-9000px;cursor:pointer;top:42%;}
+.es-nav span.es-nav-next{right:0px;width:25px;height:52px;background:url(images/next.png) no-repeat top left;}
+.es-nav span.es-nav-prev{left:0px;width:25px;height:52px;background:url(images/prev.png) no-repeat top left;}
+
+.es-nav span.es-nav-next:hover{background:url(images/next_a.png) no-repeat top left;}
+.es-nav span.es-nav-prev:hover{background:url(images/prev_a.png) no-repeat top left;}
+
